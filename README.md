@@ -20,7 +20,7 @@ url = 'https://cloud.mrc-lmb.cam.ac.uk/s/LwKn2ieBfmpEBrw/download/data.zip'
 data_folder = './'
 download_and_unzip(url, data_folder) 
 ```
-After you have run the above-mentioned codes, you should have a folder namded 'data' in the path directory you are working on. Copy and run the following codes to test the display of one of the data:
+After you have run the above-mentioned codes, you should have a folder named 'data' in the path directory you are working on. Copy and run the following codes to test the display of one of the data:
 ```
 from scyjava import config
 from aicsimageio import AICSImage
