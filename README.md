@@ -7,6 +7,5 @@ This course introduces the essential steps of setting up an image analysis workf
 
 To run the notebook on the server, use either the badges above or copy and paste the following link into the browser: 
 
-http://10.91.193.124/hub/user-redirect/git-pull?repo=https://github.com/jeromeb/Python-course&branch=main&app=lab
+http://10.91.193.124/hub/user-redirect/git-pull?repo=https://github.com/jboulanger/Python-course&branch=main&app=lab
 
-http://10.91.193.124/hub/user-redirect/git-pull?repo=https://github.com/u-schulze/Python-course&branch=main&app=lab
