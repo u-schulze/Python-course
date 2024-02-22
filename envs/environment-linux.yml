@@ -4,7 +4,7 @@ channels:
   - nvidia
   - conda-forge
 dependencies:
-  - python=3.9
+  - python
   - pip
   - pytorch::pytorch
   - pytorch::pytorch-cuda=11.7
@@ -24,7 +24,7 @@ dependencies:
       - mpl-interactions[jupyter]
       - trackpy
       - nd2
-      - tifffile[all]
+      - tifffile
       - readlif
       - aicspylibczi
-      - aicsimageio[all]
+      - aicsimageio

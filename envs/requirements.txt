@@ -1,0 +1,11 @@
+statannotations
+cellpose
+ipywidgets
+ipyfilechooser
+mpl-interactions[jupyter]
+trackpy
+nd2
+tifffile
+readlif
+aicspylibczi
+aicsimageio
