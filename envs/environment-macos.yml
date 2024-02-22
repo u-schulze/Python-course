@@ -3,7 +3,7 @@ channels:
   - pytorch-nightly
   - conda-forge
 dependencies:
-  - python=3.9
+  - python
   - pip
   - pytorch-nightly::pytorch
   - pytorch-nightly::torchvision
@@ -23,7 +23,7 @@ dependencies:
       - mpl-interactions[jupyter]
       - trackpy
       - nd2
-      - tifffile[all]
+      - tifffile
       - readlif
       - aicspylibczi
-      - aicsimageio[all]
+      - aicsimageio
