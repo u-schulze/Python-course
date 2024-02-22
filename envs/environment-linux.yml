@@ -4,27 +4,25 @@ channels:
   - nvidia
   - conda-forge
 dependencies:
-  - python
-  - pip
+  - conda-forge::python
   - pytorch::pytorch
   - pytorch::pytorch-cuda=11.7
   - pytorch::torchvision
-  - ipykernel
-  - matplotlib
-  - pandas
-  - seaborn
-  - scipy
-  - scikit-image
-  - openpyxl
-  - bioformats_jar
-  - pip:
-      - cellpose
-      - ipywidgets
-      - ipyfilechooser
-      - mpl-interactions[jupyter]
-      - trackpy
-      - nd2
-      - tifffile
-      - readlif
-      - aicspylibczi
-      - aicsimageio
+  - conda-forge::ipykernel
+  - conda-forge::matplotlib
+  - conda-forge::pandas
+  - conda-forge::seaborn
+  - conda-forge::scipy
+  - conda-forge::scikit-image
+  - conda-forge::openpyxl
+  - conda-forge::xmlschema
+  - conda-forge::bioformats_jar
+  - conda-forge::nd2
+  - conda-forge::cellpose
+  - conda-forge::statannotations
+  - conda-forge::ipywidgets
+  - conda-forge::mpl-interactions
+  - conda-forge::trackpy
+  - conda-forge::tifffile
+  - conda-forge::readlif
+  - conda-forge::aicsimageio
