@@ -1,0 +1,29 @@
+name: imaging-python-course
+channels:
+  - pytorch-nightly
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pytorch-nightly::pytorch
+  - pytorch-nightly::torchvision
+  - pytorch::torchvision
+  - ipykernel
+  - matplotlib
+  - pandas
+  - seaborn
+  - scipy
+  - scikit-image
+  - openpyxl
+  - bioformats_jar
+  - cellpose
+  - pip:
+      - ipywidgets
+      - ipyfilechooser
+      - mpl-interactions[jupyter]
+      - trackpy
+      - nd2
+      - tifffile[all]
+      - readlif
+      - aicspylibczi
+      - aicsimageio[all]
