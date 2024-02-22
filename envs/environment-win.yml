@@ -15,6 +15,7 @@ dependencies:
   - conda-forge::scipy
   - conda-forge::scikit-image
   - conda-forge::openpyxl
+  - conda-forge::xmlschema
   - conda-forge::bioformats_jar
   - conda-forge::nd2
   - conda-forge::cellpose
