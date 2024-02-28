@@ -21,8 +21,12 @@ dependencies:
   - conda-forge::cellpose
   - conda-forge::statannotations
   - conda-forge::ipywidgets
-  - conda-forge::mpl-interactions
   - conda-forge::trackpy
   - conda-forge::tifffile
   - conda-forge::readlif
   - conda-forge::aicsimageio
+  - conda-forge::ipympl
+  - conda-forge::testbook
+  - pip
+  - pip:
+      - mpl_interactions[jupyter]

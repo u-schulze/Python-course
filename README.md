@@ -1,7 +1,6 @@
 # Python-course
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jboulanger/Python-course/HEAD)
-
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jboulanger/Python-course)
 
 This course introduces the essential steps of setting up an image analysis workflow for light microscopy data. It covers the topics of image loading, processing and quantification. It illustrates how to extract relevant information from an image using common Python packages.
@@ -22,19 +21,19 @@ Install first [miniconda](https://docs.anaconda.com/free/miniconda/miniconda-ins
 
 On Windows with cuda support:
 ```bash
-conda create -f envs/environment-win.yml
+conda env create -f envs/environment-win.yml
 conda activate imaging-python-course
 ```
 
 On Linux with cuda support:
 ```bash
-conda create -f envs/environment-linux.yml
+conda env create -f envs/environment-linux.yml
 conda activate imaging-python-course
 ```
 
 On MacOS:
 ```bash
-conda create -f envs/environment-macos.yml
+conda env create -f envs/environment-macos.yml
 conda activate imaging-python-course
 ```
 
@@ -47,9 +46,24 @@ In a terminal on Linux and MacOS or in a git bash terminal on MS Windows:
 # reload the shell
 ${SHELL}
 # create an environment
-micromamba -qy create -f environment.yml
+micromamba -qy env create -f environment-linux.yml
 # activate the environment 
 micromamba activate imaging-python-course
 # start the notebook
 jupyter lab 
+```
+
+### Jupyterhub
+
+Note that to have widgets working on jupyter lab, we need to install jupyterlab_widgets :
+
+```bash
+sudo -E -s
+conda install -n base -c conda-forge jupyterlab_widgets
+```
+
+To install the environment:
+```bash
+sudo -E -s
+conda env create -f envs/environment-linux.yml
 ```

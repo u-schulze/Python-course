@@ -1,7 +1,9 @@
-data/*
+data
 *.csv
 *.svg
 *.eps
-
 .DS_Store
 *checkpoint.ipynb
+.pytest_cache
+__pycache__
+.vscode
