@@ -26,7 +26,8 @@ dependencies:
   - conda-forge::readlif
   - conda-forge::aicsimageio
   - conda-forge::ipympl
-  - conda-forge::testbook
+  - conda-forge::pytest
+  - conda-forge::nbconvert
   - pip
   - pip:
       - mpl_interactions[jupyter]
